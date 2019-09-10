@@ -1,0 +1,82 @@
+
+.contactform-hide{
+    display: none;
+    position: fixed; /* Stay in place */
+ 
+    background-color: blue;
+}
+
+.contactform-show{
+    display: inline;
+    position: fixed; /* Stay in place */
+    left: 0;
+    top: 0;
+    margin: 3% 34%;
+    width: 360px;
+    height: 400px;
+
+    overflow: auto; /* Enable scroll if needed */
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 26px -4px rgba(0,0,0,0.65);
+-moz-box-shadow: 0px 0px 26px -4px rgba(0,0,0,0.65);
+box-shadow: 0px 0px 26px -4px rgba(0,0,0,0.65);
+-webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  padding: 40px;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.form-title{
+    text-align: center;
+}
+
+.input-email{
+    width: 80%;
+    /* height: 30px; */
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.input-message{
+    width: 100%;
+    height: 200px;
+}
+
+.submit-button{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(207, 207, 207);
+    padding-left: 80%;
+}
+
+@-webkit-keyframes slide-in-top {
+    0% {
+      -webkit-transform: translateY(-1000px);
+              transform: translateY(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-top {
+    0% {
+      -webkit-transform: translateY(-1000px);
+              transform: translateY(-1000px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+      opacity: 1;
+    }
+  }
