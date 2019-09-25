@@ -54,6 +54,37 @@
 
 .legend{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.legend-links{
+    display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.legend-info{
+    font-size: 20px;
+}
+
+.legend-title{
+    width: 20px;
+    height: 180px;
+    /* background-color: red; */
+    padding: 0 290px;
+    /* margin: 0px 150px; */
+}
+
+
+.title-netflix{
+    color:rgb(255, 90, 90);
+}
+
+.title-trash{
+    color: rgb(143, 242, 143);
+}
+
+.title-storyStar{
+    color:rgb(143, 195, 255);
 }

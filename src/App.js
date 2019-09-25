@@ -8,6 +8,8 @@ import ProjectDisplay from './ProjectDisplay/ProjectDisplay'
 import Contact from './Contact/Contact'
 import ContactForm from './ContactForm/ContactForm'
 import Header from './Header/Header'
+import Skills from './Skills/Skills'
+import { Link, Element, animateScroll as scroll } from "react-scroll";
 
 class App extends React.Component {
   constructor(){
@@ -34,10 +36,17 @@ class App extends React.Component {
     <div className="App">
       <Header />
       <Starter />
-      <BrandStatement />
+      <Element className='aboutMe'>
+        <BrandStatement/>
+      </Element>
       <BodyModel />
-      <ProjectDisplay />
-      <Contact contactButtonHandler={this.contactClickHandle}/>
+      <Skills />
+      <Element className='projects'>
+        <ProjectDisplay />
+      </Element>
+      <Element className='contact'>
+        <Contact contactButtonHandler={this.contactClickHandle}/>
+      </Element>
       <ContactForm currentClass={this.state.contactFormClass}/>
     </div>
   );
