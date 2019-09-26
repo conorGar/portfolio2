@@ -15,7 +15,7 @@ function Header() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-            ><h4>About</h4></Link>
+            ><h4 className='header-link'>About</h4></Link>
              <Link
                 activeClass="active"
                 to="projects"
@@ -23,7 +23,7 @@ function Header() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-            ><h4>Projects</h4></Link>
+            ><h4 className='header-link'>Projects</h4></Link>
              <Link
                 activeClass="active"
                 to="contact"
@@ -31,7 +31,7 @@ function Header() {
                 smooth={true}
                 offset={-70}
                 duration={500}
-            ><h4>Contact Me (please.)</h4></Link>
+            ><h4 className='header-link'>Contact Me (please.)</h4></Link>
         </div>
     )
 }

@@ -27,6 +27,10 @@ class App extends React.Component {
       this.setState({
         contactFormClass: 'contactform-show'
       })
+    }else{
+      this.setState({
+        contactFormClass: 'contactform-hide'
+      })
     }
   }
 
@@ -47,7 +51,7 @@ class App extends React.Component {
       <Element className='contact'>
         <Contact contactButtonHandler={this.contactClickHandle}/>
       </Element>
-      <ContactForm currentClass={this.state.contactFormClass}/>
+      <ContactForm currentClass={this.state.contactFormClass} toggleContactPopup={this.contactClickHandle}/>
     </div>
   );
   }
