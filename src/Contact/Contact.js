@@ -27,7 +27,7 @@ class Contact extends React.Component{
                 <button className='contact-button' onClick={this.handleButton}>Contact</button>
                 <div className='other-links-container'>
                     <a href="https://www.linkedin.com/in/conor-garity-625b07189/" target="_blank"><img className='other-link-logo' src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" /></a>
-                    <a href="https://github.com/conorGar" target="_blank"><img className='other-link-logo' src="https://i.dlpng.com/static/png/4033807_preview.png" /></a>
+                    <a href="https://github.com/conorGar" target="_blank"><img className='other-link-logo' src="https://icon-library.net/images/github-icon-png/github-icon-png-29.jpg" /></a>
 
                 </div>
             </div>

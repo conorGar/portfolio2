@@ -1,4 +1,5 @@
 import React from 'react'
+import ConorGif from '../assets/conor.gif'
 import './Starter.css'
 
 class Starter extends React.Component{
@@ -17,7 +18,11 @@ class Starter extends React.Component{
 
                 <div className='showcase-container'>
                     <div className='display-stand'>
-                        
+                        <div className='images-container'>
+                        <img className='conor-image' src={ConorGif}/>
+                        {/* <img className='character-icon' src="https://nobodysgames.com/wp-content/uploads/2018/04/dialog_boss1_sad1.png" /> */}
+                        </div>
+
                     </div>
                 </div>
             </div>

@@ -43,8 +43,9 @@ class App extends React.Component {
       <Element className='aboutMe'>
         <BrandStatement/>
       </Element>
-      <BodyModel />
       <Skills />
+
+      <BodyModel />
       <Element className='projects'>
         <ProjectDisplay />
       </Element>
