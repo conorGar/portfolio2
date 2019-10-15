@@ -38,7 +38,11 @@ class App extends React.Component {
   render(){
   return (
     <div className="App">
+    
       <Header />
+      
+        <a target="_blank" href='https://drive.google.com/open?id=1t0ZGh9vP_PqzUF4GfaeR6akA3FWP3oQ5'><div className='sticky-resume'> </div></a>
+       
       <Starter />
       <Element className='aboutMe'>
         <BrandStatement/>
@@ -53,6 +57,7 @@ class App extends React.Component {
         <Contact contactButtonHandler={this.contactClickHandle}/>
       </Element>
       <ContactForm currentClass={this.state.contactFormClass} toggleContactPopup={this.contactClickHandle}/>
+      
     </div>
   );
   }
