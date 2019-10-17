@@ -55,3 +55,14 @@
     opacity: 1;
 
 }
+
+
+@media(max-width:420px){
+    .contact-button{
+        padding: 30px 90px;
+    }
+
+    .contact-copy{
+        font-size: 30px;
+    }
+}

@@ -64,3 +64,8 @@
     100% { transform: translateY(-10px); }
 }
 
+@media(max-width:420px){
+    .skills-title{
+        font-size: 80px;
+    }
+}

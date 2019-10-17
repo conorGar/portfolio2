@@ -13,7 +13,7 @@ import './ProjectDisplay.css'
 function ProjectDisplay(){
     return(
         <div className='project-display-container'>
-            <h1>- Projects -</h1> 
+            <h1 className='project-title'>- Projects -</h1> 
             <Carousel>
                 <div>
                     <img src={BeetleSteveImg} />

@@ -88,3 +88,51 @@
 .title-storyStar{
     color:rgb(143, 195, 255);
 }
+
+
+@media(max-width:420px){
+    .project-title{
+        font-size: 45px;
+    }
+
+    .legend-info{
+        font-size: 5px;
+    }
+
+    .site-link{
+        width: 50px;
+        height: 20px;
+        background-color: white;
+        padding: 5px;
+        margin: 5px;
+       
+ 
+    }
+
+    .site-link-text{
+        font-size: 12px;
+    }
+
+    .github-link{
+        width: 50px;
+        height: 20px;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    .title-trash{
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .title-storyStar{
+        font-size: 12px;
+        margin: 0;
+
+    }
+
+    .title-netflix{
+        font-size: 12px;
+        margin: 0;
+    }
+}

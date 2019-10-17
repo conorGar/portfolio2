@@ -116,3 +116,9 @@ padding-bottom: 10px;
     100% { transform: translateY(-10px); }
 }
 
+
+@media(max-width:420px){
+    .body-model-container{
+    display: none;
+    }
+}

@@ -2,7 +2,7 @@
 .starter-container{
     background-color: rgb(34, 34, 34);
     padding: 60px 0;
-
+    width: 100%;
 }
 
 
@@ -144,3 +144,36 @@ h1{
       opacity: 1;
     }
   }
+
+
+  @media(max-width:420px){
+    .word-container{
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .bold-text{
+      font-size: 33px;
+  }
+  
+  .new-text{
+    font-size: 33px;
+
+  }
+  
+  .innovative-text{
+    font-size: 33px;
+
+  }
+
+
+.conor-image{
+  width: 200px;
+  height: 210px;
+  margin: 55% 22%;
+  z-index: 2;
+}
+  
+  }
+  

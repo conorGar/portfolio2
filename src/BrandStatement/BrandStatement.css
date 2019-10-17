@@ -15,3 +15,10 @@
     margin: 100px 100px;
 
 }
+
+
+@media(max-width:420px){
+    .statement-title{
+        font-size: 32px;
+    }
+}
