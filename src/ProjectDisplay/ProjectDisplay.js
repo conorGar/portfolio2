@@ -5,7 +5,7 @@ import BeetleSteveTitle from '../assets/beetleSteveTitle2.png';
 import StoryStarImg from '../assets/storyStarGif.gif';
 import TgitImage from '../assets/tgitGif.gif';
 import NetflixImage from '../assets/projGif.gif';
-
+import RM_Image from '../assets/rm.gif'
 import { Carousel } from 'react-responsive-carousel';
 import GithubLogo from '../assets/GitHub-Logo.png'
 import './ProjectDisplay.css'
@@ -59,6 +59,19 @@ function ProjectDisplay(){
                     <div className='legend-links'>
                         <a href="https://github.com/conorGar/nothing-on-netflix" target="_blank"> <div className="github-link"><img className="github-link-image" src={GithubLogo}></img></div></a>
                         <a href="https://nothing-netflix.surge.sh/home" target="_blank"> <div className="site-link"><span className="site-link-text">Website</span></div></a>
+                    </div>
+                    </div>
+
+                </div>
+                <div>
+                    <img src={RM_Image} />
+                    <div className="legend">
+                    <h1 className='title-rm'>Rippling Medicinals Site</h1>
+                    <h5 className='legend-info'> Full stack REACT web-app created for a friend's small business. Allows admins to upload products directly as needed, minimizing maintenance. </h5>
+                    <div className='legend-links'>
+                        <a href="https://github.com/conorGar/rippling-medicinals" target="_blank"> <div className="github-link">GitHub: Front End</div></a>
+                        <a href="https://github.com/conorGar/rippling_medicinals_backend" target="_blank"> <div className="github-link">GitHub: Back End</div></a>
+                        <a href="https://elegant-heyrovsky-24c85a.netlify.com/" target="_blank"> <div className="site-link"><span className="site-link-text">Website</span></div></a>
                     </div>
                     </div>
 
